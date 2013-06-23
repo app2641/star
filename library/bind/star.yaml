@@ -1,0 +1,88 @@
+
+dest: public_html/resources/js/star/app.js
+
+path: public_html/src/
+
+src:
+
+    # singleton
+    - app/Events.js
+    - app/Controllers.js
+
+
+    - app/view/container/DescriptionPanel.js
+
+
+    # list
+    - app/controller/list/Form.js
+    - app/controller/list/Tree.js
+
+    - app/store/list/Tree.js
+
+    - app/view/list/Form.js
+    - app/view/list/CreateFolderWindow.js
+    - app/view/list/RenameWindow.js
+    - app/view/list/Tree.js
+
+
+
+    # feed
+    - app/controller/feed/Grid.js
+
+    - app/store/feed/Grid.js
+
+    - app/view/feed/Grid.js
+
+
+
+    # subscription
+    - app/controller/subscription/Form.js
+
+    - app/store/subscription/Directory.js
+
+    - app/view/subscription/Form.js
+    - app/view/subscription/Window.js
+
+
+
+    # import
+    - app/controller/import/Form.js
+
+    - app/view/import/Form.js
+    - app/view/import/Window.js
+
+
+
+    # account
+    - app/controller/account/Form.js
+    - app/controller/account/Window.js
+
+    - app/view/account/Form.js
+    - app/view/account/Window.js
+
+
+
+    # header
+    - app/controller/header/SettingButton.js
+
+    - app/view/header/TitlePanel.js
+    - app/view/header/SearchField.js
+    - app/view/header/SettingButton.js
+
+
+
+
+
+    # container
+    - app/controller/container/LeftPanel.js
+
+    - app/view/container/LeftPanel.js
+    - app/view/container/RightPanel.js
+    - app/view/container/HeaderPanel.js
+    - app/view/container/MainPanel.js
+
+
+    # viewport
+    - app/view/Viewport.js
+
+    - app.js

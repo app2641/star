@@ -1,0 +1,135 @@
+{
+    "items": [
+    
+    {
+        "category": "Form",
+        "cls_name": "STAR.view.login.Form",
+        "screen_name": "ログイン",
+        "explanation": "ログインフォーム"
+    },
+
+    {
+        "category": "Form",
+        "cls_name": "STAR.view.register.Form",
+        "screen_name": "ログイン",
+        "explanation": "アカウント作成フォーム"
+    },
+    
+
+    
+    {
+        "category": "Tree",
+        "cls_name": "STAR.view.list.Tree",
+        "screen_name": "リスト",
+        "explanation": "リストデータのツリー"
+    }, {
+        "category": "Form",
+        "cls_name": "STAR.view.list.Form",
+        "screen_name": "リスト",
+        "explanation": "リネームやフォルダ生成用フォーム"
+    }, {
+        "category": "Window",
+        "cls_name": "STAR.view.list.RenameWindow",
+        "screen_name": "リスト",
+        "explanation": "リネームウィンドウ"
+    }, {
+        "category": "Window",
+        "cls_name": "STAR.view.list.CreateFolderWindow",
+        "screen_name": "リスト",
+        "explanation": "フォルダ新規作成ウィンドウ"
+    },
+
+
+
+    {
+        "category": "Form",
+        "cls_name": "STAR.view.subscription.Form",
+        "screen_name": "RSS購読",
+        "explanation": "RSS購読フォーム"
+    }, {
+        "category": "Window",
+        "cls_name": "STAR.view.subscription.Window",
+        "screen_name": "RSS購読",
+        "explanation": "RSS購読ウィンドウ"
+    },
+    
+    
+
+    {
+        "category": "Form",
+        "cls_name": "STAR.view.import.Form",
+        "screen_name": "インポート",
+        "explanation": "GoogleReaderデータをインポートするフォーム"
+    }, {
+        "category": "Window",
+        "cls_name": "STAR.view.import.Window",
+        "screen_name": "インポート",
+        "explanation": "GoogleReaderデータのインポートウィンドウ"
+    },
+    
+
+
+    {
+        "category": "Form",
+        "cls_name": "STAR.view.account.Form",
+        "screen_name": "アカウント設定 ",
+        "explanation": "アカウント設定フォーム"
+    }, {
+        "category": "Window",
+        "cls_name": "STAR.view.account.Window",
+        "screen_name": "アカウント設定",
+        "explanation": "アカウント設定ウィンドウ"
+    },
+
+
+
+    {
+        "category": "Grid",
+        "cls_name": "STAR.view.feed.Grid",
+        "screen_name": "フィード",
+        "explanation": "フィード表示グリッド"
+    },
+
+    
+    
+    {
+        "category": "Panel",
+        "cls_name": "STAR.view.container.LeftPanel",
+        "screen_name": "コンテナ",
+        "explanation": "右側のツリーコンテナ"
+    }, {
+        "category": "Panel",
+        "cls_name": "STAR.view.container.RightPanel",
+        "screen_name": "コンテナ",
+        "explanation": "左側のグリッドコンテナ"
+    }, {
+        "category": "Panel",
+        "cls_name": "STAR.view.container.MainPanel",
+        "screen_name": "コンテナ",
+        "explanation": "メインコンテナ"
+    }, {
+        "category": "Panel",
+        "cls_name": "STAR.view.container.HeaderPanel",
+        "screen_name": "コンテナ",
+        "explanation": "ヘッダーコンテナ"
+    },
+    
+    
+
+    {
+        "category": "Panel",
+        "cls_name": "STAR.view.header.TitlePanel",
+        "screen_name": "ヘッダー",
+        "explanation": "STARタイトル表示パネル"
+    }, {
+        "category": "Form",
+        "cls_name": "STAR.view.header.SearchField",
+        "screen_name": "ヘッダー",
+        "explanation": "Feed検索フィールド"
+    }, {
+        "category": "Button",
+        "cls_name": "STAR.view.header.SettingButton",
+        "screen_name": "ヘッダー",
+        "explanation": "STAR設定メニュー"
+    }]
+}

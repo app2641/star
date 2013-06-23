@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+
+    <!-- ListRecord -->
+    <list
+        id="1"
+        title="すべてのアイテム"
+        url="##null##"
+        is_folder="1"
+        lft="1"
+        rgt="16"
+        level="0"
+    />
+
+    <list
+        id="2"
+        title="ExtJS"
+        url="##null##"
+        is_folder="1"
+        lft="2"
+        rgt="5"
+        level="1"
+    />
+
+    <list
+        id="3"
+        title="Sencha Forum"
+        url="http://www.sencha.com/forum/external.php?type=RSS2"
+        is_folder="0"
+        lft="3"
+        rgt="4"
+        level="2"
+    />
+
+    <list
+        id="4"
+        title="AWS Feeds"
+        url="http://jaws-ug.jp/feed"
+        is_folder="0"
+        lft="6"
+        rgt="7"
+        level="1"
+    />
+
+    <list
+        id="5"
+        title="Android"
+        url="##null##"
+        is_folder="1"
+        lft="8"
+        rgt="15"
+        level="1"
+    />
+
+    <list
+        id="6"
+        title="Android Developers Blog"
+        url="http://android-developers.blogspot.com/feeds/posts/default?alt=rss"
+        is_folder="0"
+        lft="9"
+        rgt="10"
+        level="2"
+    />
+
+    <list
+        id="7"
+        title="Y.A.M の 雑記帳"
+        url="http://y-anz-m.blogspot.com/feeds/posts/default?alt=rss"
+        is_folder="0"
+        lft="11"
+        rgt="12"
+        level="2"
+    />
+
+    <list
+        id="8"
+        title="はてなブックマーク Android"
+        url="http://b.hatena.ne.jp/search/tag?safe=on&amp;q=android&amp;mode=rss"
+        is_folder="0"
+        lft="13"
+        rgt="14"
+        level="2"
+    />
+
+
+    
+    <!-- FeedRecord -->
+    <feed
+        id="1"
+        list_id="3"
+        title="Sench Forum Entry1"
+        url="http://example.com"
+        date="2013-06-04 10:00:00"
+        is_read="0"
+        is_star="0"
+    />
+
+    <feed
+        id="2"
+        list_id="3"
+        title="Sench Forum Entry2"
+        url="http://example.com"
+        date="2013-06-05 10:00:00"
+        is_read="0"
+        is_star="1"
+    />
+
+    <feed
+        id="3"
+        list_id="6"
+        title="Android Developers Blog entry1"
+        url="http://example.com"
+        date="2013-06-05 10:30:00"
+        is_read="0"
+        is_star="0"
+    />
+
+
+
+    <!-- UserRecord -->
+    <user
+        id="1"
+        name="test"
+        password="a70e55bd7f0494d55a462196efbd994ac9dc6a47"
+        salt="efdaee9336b5b582d75c59409f190598"
+        auto_signin_key="##null##"
+        api_key="1976afbf"
+        created_date="2013-05-15 16:38:09"
+        updated_date="0000-00-00 00:00:00"
+    />
+
+</dataset>

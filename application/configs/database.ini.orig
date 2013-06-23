@@ -1,0 +1,14 @@
+[database]
+; db.dsn, db.username, db.passwordにSTARを設定するサーバのMySQLに合わせて記載します
+
+db.host     = "localhost"
+db.username = "root"
+db.password = "root"
+db.charset  = "UTF8"
+
+
+[test]
+db.host     = "localhost"
+db.username = "root"
+db.password = "root"
+db.charset  = "UTF8"

@@ -4,3 +4,15 @@ README.txt
 demos/
 extras/documentation
 
+.DS_Store
+
+Capfile
+config/
+
+data/reader/
+application/configs/database.ini
+
+library/SimplePie/cache
+library/composer/vendor
+
+public_html/resources/sass/.sass-cache/

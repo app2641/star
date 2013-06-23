@@ -1,0 +1,28 @@
+<phpunit bootstrap="./TestsBootstrap.php" colors="true" >
+
+    <!-- Direct -->
+    <testsuite name="STAR Direct TestSuite">
+        <directory>./application</directory>
+    </testsuite>
+
+    <!-- Library -->
+    <testsuite name="STAR Liberay TestSuite">
+        <directory>./library</directory>
+    </testsuite>
+
+
+    <filter>
+        <!-- If Zend Framework is inside your project's library, uncomment this filter -->
+        <whitelist>
+            <directory suffix=".php">../application/modules/direct</directory>
+            <directory suffix=".php">../library/Star</directory>
+            <exclude>
+                <directory suffix=".php">../library/Star/Commands</directory>
+                <file>../library/Star/Model/AbstractModel.php</file>
+                <file>../library/Star/Model/Column/ColumnInterface.php</file>
+                <file>../library/Star/Model/Table/TableInterface.php</file>
+            </exclude>
+        </whitelist>
+    </filter>
+
+</phpunit>

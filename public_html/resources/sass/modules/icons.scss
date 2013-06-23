@@ -1,0 +1,62 @@
+
+.import-window-icon {
+    background-image: url("/resources/image/import/google_icon.png") !important;
+}
+
+
+.subscription-window-icon {
+    background-image: url("/resources/image/subscription/feed_add_icon.png") !important;
+}
+
+
+
+.list-feed-item-icon {
+    background-image: url("/resources/image/list/feed_icon.png") !important;
+}
+
+.list-folder-rename-icon {
+    background-image: url("/resources/image/list/folder_rename_icon.png") !important;
+}
+
+.list-item-rename-icon {
+    background-image: url("/resources/image/list/feed_rename_icon.png") !important;
+}
+
+.list-create-folder-icon {
+    background-image: url("/resources/image/list/folder_add_icon.png") !important;
+}
+
+
+
+
+.feed-item-pocket-unset-icon {
+    background-image: url("/resources/image/feed/pocket_unset_icon.png") !important;
+    width: 16px;
+
+    opacity: 0.8;
+}
+
+.feed-item-pocket-unset-icon:hover {
+    opacity: 1;
+}
+
+
+.feed-item-pocket-icon {
+    background-image: url("/resources/image/feed/pocket_icon.png") !important;
+    cursor: pointer;
+    width: 16px;
+}
+
+
+.feed-item-hatebu-icon {
+    background-image: url("/resources/image/feed/hatebu.gif") !important;
+    opacity: 0.8;
+    width: 16px;
+    height: 16px;
+}
+
+
+
+.setting-window-icon {
+    background-image: url("/resources/image/setting/setting_icon.png") !important;
+}

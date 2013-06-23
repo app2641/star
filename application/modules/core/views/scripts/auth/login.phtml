@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="description" content="STARのログイン画面です">
+        <title>Login -- STAR</title>
+
+        <link href="/resources/favicon.ico" rel="shortcut icon" />
+
+        <link href="/resources/js/extjs/4.1.1/resources/css/ext-all.css" rel="stylesheet" />
+        <link href="/resources/css/main.css" rel="stylesheet" />
+
+        <script type="text/javascript" src="/resources/js/extjs/4.1.1/ext-all.js"></script>
+        <script type="text/javascript" src="/resources/js/extjs/4.1.1/locale/ext-lang-ja.js"></script>
+
+        <script type="text/javascript">
+            Ext.ns('STAR');
+            STAR = {};
+        </script>
+
+        <script type="text/javascript" src="/resources/js/star/locale/star-locale-ja.js"></script>
+        <script type="text/javascript" src="/resources/js/star/API.js"></script>
+
+        <?php if ($this->debug): ?>
+        <script type="text/javascript" src="/src/auth/Controllers.js"></script>
+        <script type="text/javascript" src="/src/auth.js"></script>
+        <?php else: ?>
+        <script type="text/javascript" src="/resources/js/star/auth.js"></script>
+        <?php endif; ?>
+    </head>
+    <body>
+    
+        <div id="auth-login-container"></div>
+
+    </body>
+</html>

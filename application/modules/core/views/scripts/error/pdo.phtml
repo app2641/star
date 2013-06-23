@@ -1,0 +1,49 @@
+<div class="container pdo-error">
+    <h1>PDOException</h1>
+
+    <div class="error-description">
+        <p>PDOクラスのインスタンス化に失敗しました。<br />
+        データベースの設定が正しく行われていない可能性があります。</p>
+        <p>以下の方法でデータベースの設定を行なってください。</p>
+    </div>
+
+
+    <h3 class="sub-header">ユーザ名とパスワードの設定</h3>
+
+    <p>STARではMySQLデータベースを利用し、database.iniという設定ファイルからMySQLへの接続を試みます。<br />
+    以下のようにdatabase.iniにMySQLへ接続するためのユーザ名とパスワードを書き込んでください。</p>
+
+    <p class="muted file-name"><em>path: application/configs/database.ini</em></p>
+    <pre class="text-left">
+        [database]
+        db.host     = "localhost"
+        db.username = "root"
+        db.password = "root"
+        db.charset  = "UTF8"</pre>
+
+    <div style="margin:50px;" />
+    
+    <h3 class="sub-header">starデータベースの生成</h3>
+    
+    <p>次に、STARで使用するデータベースを生成します。<br />
+    STARのプロジェクトディレクトリへコマンドラインで移動をし、STARコマンドを使用します。</p>
+
+    <p><code>star init</code> を実行すると、STARで使用するデータベースを自動的に生成することが出来ます。</p>
+
+    <pre class="text-left">
+    $ cd /path/to/star
+    $ ./star init</pre>
+
+
+    <div style="margin:50px;" />
+
+    <h3 class="sub-header">おめでとうございます！</h3>
+
+    <p>これで、STARで利用するデータベースの準備が整いました。<br />
+    下のボタンをクリックしてブラウザをリロードしてください！</p>
+
+    <div style="margin:20px" />
+
+    <p><button class="btn btn-large btn-success" type="button" onclick="window.location='/';">ブラウザをリロード</button></p>
+
+</div>

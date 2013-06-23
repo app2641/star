@@ -1,0 +1,26 @@
+
+dest: public_html/resources/js/star/auth.js
+
+path: public_html/src/
+
+src:
+
+    # singleton
+    - auth/Controllers.js
+
+
+
+    # login
+    - auth/controller/login/Form.js
+
+    - auth/view/login/Form.js
+    - auth/view/login/Panel.js
+
+
+
+    # register
+    - auth/controller/register/Form.js
+
+    - auth/view/register/Form.js
+
+    - auth.js

@@ -1,0 +1,54 @@
+
+<td valign="top" style="padding-left:10px;width:70%;">
+<table>
+    <tr>
+        <td valign="top">
+            <table class="contents-table">
+                <?php foreach ($this->contents as $k => $v): ?>
+                    <?php if ($k % 2 == 0): ?>
+                        <tr>
+                            <td>
+                                <div class="contents-column column-shadow" onclick="Lazuli.Events.open('<?php echo $v->title ?>')">
+                                    <p class="contents-title"><?php echo $v->title ?></p>
+                                    <div class="contents-description"><p><?php echo $v->content ?></p></div>
+                                </div>
+                            </td>
+                        </tr>
+                    <?php endif; ?>
+                <?php endforeach; ?>
+            </table>
+        </td>
+        <td valign="top" style="padding-right:40px;">
+            <table class="contents-table">
+                <?php foreach ($this->contents as $k => $v): ?>
+                    <?php if ($k % 2 != 0): ?>
+                        <tr>
+                            <td>
+                                <div class="contents-column column-shadow" onclick="Lazuli.Events.open('<?php echo $v->title ?>')">
+                                    <p class="contents-title"><?php echo $v->title ?></p>
+                                    <div class="contents-description"><p><?php echo $v->content ?></p></div>
+                                </div>
+                            </td>
+                        </tr>
+                    <?php endif; ?>
+                <?php endforeach; ?>
+            </table>
+        </td>
+    </tr>
+
+    <!-- pager -->
+    <tr>
+        <td colspan="2">
+            <div class="pager-container">
+                <input 
+                    type="button"
+                    class="lunch-button-success"
+                    onclick="Lazuli.Events.paging();"
+                    value="Older entries"
+                />
+            </div>
+        </td>
+    </tr>
+</table>
+</td>
+
