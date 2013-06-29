@@ -37,7 +37,6 @@ class parse extends Base\AbstractCommand
             $list_data = $list_model->table->fetchAllList();
 
             foreach ($list_data as $list) {
-                break;
                 // RSSをFeedクラスに読み込ませる
                 try {
                     $feed = new Feed();
@@ -57,7 +56,9 @@ class parse extends Base\AbstractCommand
 
                     if ($entry) {
                         // 既に登録済みのエントリになったら解析中断
-                        break;
+                        unset($entry);
+                        continue;
+
                     } else {
                         $params = new \stdClass;
                         $params->list_id = $list->id;
