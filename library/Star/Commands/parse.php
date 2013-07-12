@@ -88,7 +88,7 @@ class parse extends Base\AbstractCommand
 
             // 500エントリあるものは削除
             foreach ($list_data as $list) {
-                $feed = $feed_table->fetchLimitFeed(500, $list->id);
+                $feed = $feed_table->fetchLimitFeed(100, $list->id);
 
                 if ($feed) {
                     $feed_table->deleteOverFeeds($list->id, $feed->id);
