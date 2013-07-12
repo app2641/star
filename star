@@ -6,7 +6,7 @@ use Star\CLI;
 try {
     define('DS', DIRECTORY_SEPARATOR);
     define('ROOT_PATH', realpath(dirname(__FILE__)));
-    define('CMDS', ROOT_PATH.DS.'library'.DS.'star'.DS.'Commands');
+    define('CMDS', ROOT_PATH.DS.'library'.DS.'Star'.DS.'Commands');
     define('DATA', ROOT_PATH.DS.'data');
     define('APPLICATION_PATH', ROOT_PATH . '/application');
     defined('APPLICATION_ENV') || define('APPLICATION_ENV', (getenv('APPLICATION_ENV') ? getenv('APPLICATION_ENV') : 'production'));
